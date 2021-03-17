@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Peer Herholz on Peer Herholz</title>
-    <link>https://peerherholz.github.io/</link>
-    <description>Recent content in Peer Herholz on Peer Herholz</description>
+    <title>Malte Gueth on Malte Gueth</title>
+    <link>https://maltegueth.github.io/</link>
+    <description>Recent content in Malte Gueth on Malte Gueth</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Apr 2019 00:00:00 -0400</lastBuildDate>
@@ -10,40 +10,40 @@
     
     <item>
       <title>&#39;Disorders&#39; of music processing</title>
-      <link>https://peerherholz.github.io/project/disorder_music/</link>
+      <link>https://maltegueth.github.io/project/disorder_music/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 -0400</pubDate>
       
-      <guid>https://peerherholz.github.io/project/disorder_music/</guid>
+      <guid>https://maltegueth.github.io/project/disorder_music/</guid>
       <description>&lt;p&gt;Given the importance and prominent role of music for the majortity of people out there, it&amp;rsquo;s quite hard to imaging lacking the ability to actually process or enjoy music. However, for people affected by amusia or musical anhedonia this is reality. While the first have difficulties perceiving and/or producing melodies (pitch) or rhythms (or both) (if you&amp;rsquo;re interested check this great in depth and comprehensive review by Isabelle Peretz), the latter show the incapacity of enjoying listening to music (great introduction, study and overview by Martínez-Molina et al.). Interestingly, upon a closer look these two show some sort of &amp;ldquo;double dissociation&amp;rdquo; in that people affected by amusica can and do enjoy music despite the aforementioned problems, whereas people affected by musical anhedonia have no difficulties in processing music (e.g. it&amp;rsquo;s structure). Hence, I&amp;rsquo;m very interested in both investigating possible models of explanation combining multimodal data with connectivity measures and multivariate approaches.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Auditory processing</title>
-      <link>https://peerherholz.github.io/project/auditory_processing/</link>
+      <link>https://maltegueth.github.io/project/auditory_processing/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 -0400</pubDate>
       
-      <guid>https://peerherholz.github.io/project/auditory_processing/</guid>
+      <guid>https://maltegueth.github.io/project/auditory_processing/</guid>
       <description>&lt;p&gt;Our normal all day life is full of an ever changing and highly complex soundscape. How and during which time point during auditory perception those countless sound categories emerge in the cortical and subcortical auditory pathway is not only a very interesting, but also challenging question. For a quite a while I&amp;rsquo;m particulary fascinated by the cortical interaction of music, singing and language, which I investigate through combined MRI &amp;amp; EEG, anazlying subsequent data using different connectivity and machine learning approaches. Additionally, possible factors of influence such as musical training and handedness are an important part of this research question. The project&amp;rsquo;s github and OSF pages provide more information.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Structure &amp; function of the auditory system</title>
-      <link>https://peerherholz.github.io/project/auditory_system/</link>
+      <link>https://maltegueth.github.io/project/auditory_system/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 -0400</pubDate>
       
-      <guid>https://peerherholz.github.io/project/auditory_system/</guid>
+      <guid>https://maltegueth.github.io/project/auditory_system/</guid>
       <description>&lt;p&gt;Glasser at al. summarized it quite well in their 2016 &amp;ldquo;A Multi-modal Parcellation of Human Cerebral Cortex&amp;rdquo; paper when they were stating &amp;ldquo;In contrast to early visual and somatomotor cortex, parcellation of the early auditory cortex has proven much more challenging&amp;hellip;&amp;rdquo; (Suppl. 3, page 35, line 7-8 ). The robust and reliable localization and parcellation of the human auditory cortex, along with it&amp;rsquo;s functional principles has been the subject of a long-standing debatte with the vast amount of possible analyses that to can be applied to the variety of possible measurements adding yet another layer of complexity. Based on that I started developing ALPACA (OSF page here), an open-source python toolbox for the &amp;ldquo;Automated Localization and Parcellation of Auditory Cortex Areas&amp;rdquo; (full disclosure: I had the abbreviation first and then tried to come up with a fitting name, luckily that worked out pretty well) which will include experiment and analyses scripts for different paradigms (natural sounds &amp;amp; classic tone bursts) and approaches (structural parcellation, mapping of auditory ROIs from atlases, fMRI, EEG, searchlights, encoding, etc.). The respective parts can be combined as preferred and run as functions or fully automated via docker and/or as a BIDS app, hopefully helping folks with creating ROIs for their study and/or further advancing the investigation of the human auditory cortex.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>music perception</title>
-      <link>https://peerherholz.github.io/project/music_perception/</link>
+      <link>https://maltegueth.github.io/project/music_perception/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 -0400</pubDate>
       
-      <guid>https://peerherholz.github.io/project/music_perception/</guid>
+      <guid>https://maltegueth.github.io/project/music_perception/</guid>
       <description>&lt;p&gt;As music is as divers as mysterious to such an extent that it&amp;rsquo;s hard or nearly impossible to actually define it, I&amp;rsquo;m interested how music processing, especially perception, is shaped, how it can be described and possibly explained. To hopefully shed some light on this rather overwhelming question I investigate how human and non-human brains perceive and represent different music genres and how these representations can be explained based on auditory/music features, as well as conceptual and computational models. To do so I apply a broad range of methods, ranging from imaging (MRI &amp;amp; EEG) to behavior to artificial neural networks furthermore including important factors such as development (culture &amp;amp; music preference) and plasticity (musical training). You can find more information about this line of my research on the projects github or OSF page.
 Furthermore, I&amp;rsquo;m working, as a remote contributor, in Harvard&amp;rsquo;s music lab in the amazing Natinal History of Song project.&lt;/p&gt;
 </description>
@@ -51,67 +51,67 @@ Furthermore, I&amp;rsquo;m working, as a remote contributor, in Harvard&amp;rsqu
     
     <item>
       <title>neuroinformatics &amp; methods</title>
-      <link>https://peerherholz.github.io/project/methods/</link>
+      <link>https://maltegueth.github.io/project/methods/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 -0400</pubDate>
       
-      <guid>https://peerherholz.github.io/project/methods/</guid>
+      <guid>https://maltegueth.github.io/project/methods/</guid>
       <description>&lt;p&gt;I was once told that one doesn&amp;rsquo;t have to understand neuroscience methods and statistics in order to apply. While this is certainly true, it&amp;rsquo;s also certainly bad. Starting with very little method &amp;amp; zero programming skills everything was kinda overwhelming but at the same time fascinating. The combination of math, physics, informatics and biology amazed me and the more I read and gained practical experience the more I wanted to understand. I&amp;rsquo;m especially insterested in data management and quality control, non-standard experimental setups (e.g., naturalistic stimulation) and acquisition schemes (e.g., multiband, MT), processing steps (e.g., ICA, detrending), image registration, multi-modal measurements &amp;amp; data integretation, as well as multivariate analyses approaches (e.g., machine learning, encoding models). Furthermore, I&amp;rsquo;m working on pipeline creation / automization and cloud / hpc computing, recently setting up my first own server system.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>open &amp; reproducible (neuro)science</title>
-      <link>https://peerherholz.github.io/project/open/</link>
+      <link>https://maltegueth.github.io/project/open/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 -0400</pubDate>
       
-      <guid>https://peerherholz.github.io/project/open/</guid>
+      <guid>https://maltegueth.github.io/project/open/</guid>
       <description>&lt;p&gt;Starting with the lack of details in the methods section of papers I was reading to no chance of having a look at the data or code (or sometimes even the whole publication) created some sort of frustration I found it hard to cope with. Hence, I&amp;rsquo;m trying to open up my daily research worklfow as much as possible throughout all stages using a variety of tools (great resource on how to get started can be found here). Through the support during my time as an &amp;ldquo;open science fellow&amp;rdquo; I was able to initiate the Open Science Initiative University of Marburg, an university wide organization fostering open science principles for example via hackrooms and hackathons (e.g. brainhacks), workshops (e.g. here), as well as general assistance and support (e.g. here). Additionally, I&amp;rsquo;m working on integrating comparably new and less know tools like open knowledge maps &amp;amp; scholia into research workflows and how to use virtualization software like docker &amp;amp; singularity for hustle free reproducibility and generalizabillity.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>tools for auditory neuroscience</title>
-      <link>https://peerherholz.github.io/project/tools/</link>
+      <link>https://maltegueth.github.io/project/tools/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 -0400</pubDate>
       
-      <guid>https://peerherholz.github.io/project/tools/</guid>
+      <guid>https://maltegueth.github.io/project/tools/</guid>
       <description>&lt;p&gt;Fellow folks working in auditory neuroscience know the somewhat struggle that goes along with that line of research, especially within the realm of MRI: due to the nature of the stimulus experiments can be harder to implement, take way longer SNR is far from being good and whatnot (make sure to check Jonathan Peelle&amp;rsquo;s amazing review on that topic). Hence, working on how experiments can be improved is (like usual) as much as important as actually doing them. Besides the already mentioned ALPACA toolbox, I&amp;rsquo;m therefore also very interested in improving settings for auditory neuroscience experiments. To this end, I&amp;rsquo;m e.g., working on MRI aqusition parameters and sequences (for example ISSS &amp;amp; multiband) and a small toolbox that allows audiometry measurements in the MRI environment (corresponding OSF page).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>AtlasReader: A Python package to generate coordinate tables, region labels, and informative figures from statistical MRI images</title>
-      <link>https://peerherholz.github.io/publication/atlasreader/</link>
+      <link>https://maltegueth.github.io/publication/atlasreader/</link>
       <pubDate>Sun, 24 Feb 2019 00:00:00 -0500</pubDate>
       
-      <guid>https://peerherholz.github.io/publication/atlasreader/</guid>
+      <guid>https://maltegueth.github.io/publication/atlasreader/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LAB–QA2GO: A free, easy-to-use toolbox for the quality assessment of magnetic resonance imaging data</title>
-      <link>https://peerherholz.github.io/publication/labqa2go/</link>
+      <link>https://maltegueth.github.io/publication/labqa2go/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
       
-      <guid>https://peerherholz.github.io/publication/labqa2go/</guid>
+      <guid>https://maltegueth.github.io/publication/labqa2go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LAB–QA2GO: A free, easy-to-use toolbox for the quality assessment of magnetic resonance imaging data</title>
-      <link>https://peerherholz.github.io/publication/nibeta/</link>
+      <link>https://maltegueth.github.io/publication/nibeta/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
       
-      <guid>https://peerherholz.github.io/publication/nibeta/</guid>
+      <guid>https://maltegueth.github.io/publication/nibeta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comparison of fMRI paradigms assessing visuospatial processing: Robustness and reproducibility</title>
-      <link>https://peerherholz.github.io/publication/relia-visuo/</link>
+      <link>https://maltegueth.github.io/publication/relia-visuo/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://peerherholz.github.io/publication/relia-visuo/</guid>
+      <guid>https://maltegueth.github.io/publication/relia-visuo/</guid>
       <description></description>
     </item>
     
