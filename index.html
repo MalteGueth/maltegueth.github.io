@@ -663,12 +663,8 @@ in the Behavioral and Neural Sciences Program at the Center for Molecular and Be
       <div class="col-12 col-lg-4 section-heading">
         <h1>Work experience</h1>
 
-    <div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
-      {{ with $page.Content }}{{ . }}{{ end }}
+    <div class="col-xs-12 col-md-4 section-heading">
 
-      {{ if $page.Params.experience }}
-      {{ $exp_len := len $page.Params.experience }}
-      {{ range $idx, $key := sort $page.Params.experience ".date_start" "desc" }}
       <div class="row experience">
         <!-- Timeline -->
         <div class="col-auto text-center flex-column d-none d-sm-flex">
