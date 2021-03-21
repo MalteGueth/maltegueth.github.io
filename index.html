@@ -659,86 +659,60 @@ in the Behavioral and Neural Sciences Program at the Center for Molecular and Be
 
 
 
+    <div class="row">
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Work experience</h1>
 
+    <div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
+      {{ with $page.Content }}{{ . }}{{ end }}
 
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Work experience</h1>
-
-  </div>
-  <div class="col-12 col-lg-8">
-
-
-
-
-    <div class="media stream-item" itemscope itemtype="http://schema.org/SocialMediaPosting">
-      <div class="media-body">
-
-        <h3 class="article-title mb-0 mt-0" itemprop="name">
-          <a href="/publication/tbs_ct/" itemprop="url">BNS Program</a>
-        </h3>
-
-
-        <div class="stream-meta article-metadata">
-
-
-
-
-          <div itemprop="author">
-
-
-
-
-      <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-          <span itemprop="name">
-
-
-
-
-            <a href="">Travis E. Baker</a></span></span>,
-        <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-            <span itemprop="name">
-
-
-
-            <a href="">Mei Hen-Lin</a></span></span>,
-        <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-            <span itemprop="name">
-
-
-
-            <a href="">Malte R. Gueth</a></span></span>,
-        <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-            <span itemprop="name">
-
-
-
-            <a href="">Kathryn Biernacki</a></span></span>,
-        <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-            <span itemprop="name">
-
-
-
-            <a href="">Seema Parikh</a></span></span>,
-        <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-            <span itemprop="name">
-
-
+      {{ if $page.Params.experience }}
+      {{ $exp_len := len $page.Params.experience }}
+      {{ range $idx, $key := sort $page.Params.experience ".date_start" "desc" }}
+      <div class="row experience">
+        <!-- Timeline -->
+        <div class="col-auto text-center flex-column d-none d-sm-flex">
+          <div class="row h-50">
+            <div class="col {{if gt $idx 0}}border-right{{end}}">&nbsp;</div>
+            <div class="col">&nbsp;</div>
           </div>
-
+          <div class="m-2">
+            <span class="badge badge-pill border {{if not .date_end}}exp-fill{{end}}">&nbsp;</span>
+          </div>
+          <div class="row h-50">
+            <div class="col {{if lt $idx (sub $exp_len 1)}}border-right{{end}}">&nbsp;</div>
+            <div class="col">&nbsp;</div>
+          </div>
         </div>
-
-
-        <div class="btn-links">
-
-
-
-
-
+        <!-- Content -->
+        <div class="col py-2">
+          <div class="card">
+            <div class="card-body">
+              <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">{{.title | markdownify | emojify}}</div>
+              <div class="section-subheading card-title exp-company text-muted my-0">
+                {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
+              </div>
+              <div class="text-muted exp-meta">
+                {{ (time .date_start).Format ($page.Params.date_format | default "January 2006") }} –
+                {{ if .date_end}}
+                  {{ (time .date_end).Format ($page.Params.date_format | default "January 2006") }}
+                {{else}}
+                  {{ i18n "present" | default "Present" }}
+                {{end}}
+                {{with .location}}
+                  <span class="middot-divider"></span>
+                  <span>{{.}}</span>
+                {{end}}
+              </div>
+              {{with .description}}<div class="card-text">{{. | markdownify | emojify}}</div>{{end}}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{end}}
+      {{end}}
+    </div>
+    
 
 
     </div>
