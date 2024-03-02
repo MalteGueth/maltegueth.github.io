@@ -13,7 +13,6 @@
       <link>https://maltegueth.github.io/project/closed_loop/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 -0400</pubDate>
       
-      <guid>https://maltegueth.github.io/project/auditory_processing/</guid>
       <description>&lt;p&gt;Brain oscillations, as reflected in post-synaptic potentials in the EEG, represent rhtyhmic cellular activity. In order to test the functional relevance of these oscillations, their interactions, and their changes in response to stimuli, TMS can provide non-invase stimulation for diusrupting or promoting this brain activity. State of the art methods however cannot simultaneously process the recorded EEG signals and send stimulation triggers with sufficient accuracy in regards to the phase of the oscillation. We aim to create a closed-loop system capable of instantaneous stimulation with superior precision compared to state of the art prediction algorithm methods.&lt;/p&gt;
 </description>
     </item>
